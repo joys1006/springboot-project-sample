@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bb039d3-f798-4545-8210-b803775d0b4f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kakaoTodoBackend" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z52evgr951J3eKE7w6siumUnTN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.splitter.proportion" value="0.27930683" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kakao.api.controller.todo" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kakao" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="java.com.kakao.api.controller.todo" />
+      <recent name="" />
+      <recent name="com.kakao.api.controller.todo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/java/todo/com.kakao.api" />
+      <recent name="$PROJECT_DIR$/src/main/resources/java/todo" />
+      <recent name="$PROJECT_DIR$/src/main/resources/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TodoControllerTest.testFoo">
+    <configuration name="TodoControllerTest.testFoo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kakao.api.controller.TodoControllerTest.testFoo&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="kakaoTodoBackend [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kakaoTodoBackend.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kakao.api.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kakaoTodoBackend.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kakao.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TodoControllerTest.testFoo" />
+        <item itemvalue="Gradle.kakaoTodoBackend [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bb039d3-f798-4545-8210-b803775d0b4f" name="Default Changelist" comment="" />
+      <created>1584114732147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584114732147</updated>
+      <workItem from="1584114733880" duration="1824000" />
+      <workItem from="1584193274310" duration="1637000" />
+      <workItem from="1584195034062" duration="12954000" />
+      <workItem from="1584535790971" duration="3349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1040" y="249" key="#Auto_Import" timestamp="1584538706021">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1040" y="249" key="#Auto_Import/0.23.1920.1121@0.23.1920.1121" timestamp="1584538706021" />
+    <state x="1040" y="249" key="#Inspections" timestamp="1584267712279">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1040" y="249" key="#Inspections/0.23.1920.1121@0.23.1920.1121" timestamp="1584267712279" />
+    <state x="1040" y="249" key="#Project_Structure" timestamp="1584535510933">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1040" y="249" key="#Project_Structure/0.23.1920.1121@0.23.1920.1121" timestamp="1584535510933" />
+    <state x="1290" y="479" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584115245400">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1290" y="479" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584115245400" />
+    <state x="859" y="516" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584259095623">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="859" y="516" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584259095623" />
+    <state x="1178" y="337" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584115291782">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1178" y="337" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584115291782" />
+    <state x="1308" y="243" width="458" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1584535477461">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1308" y="243" width="458" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584535477461" />
+    <state width="918" height="311" key="GridCell.Tab.0.bottom" timestamp="1584537993561">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="918" height="311" key="GridCell.Tab.0.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1584537993561" />
+    <state width="918" height="311" key="GridCell.Tab.0.center" timestamp="1584537993560">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="918" height="311" key="GridCell.Tab.0.center/0.23.1920.1121@0.23.1920.1121" timestamp="1584537993560" />
+    <state width="918" height="311" key="GridCell.Tab.0.left" timestamp="1584537993560">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="918" height="311" key="GridCell.Tab.0.left/0.23.1920.1121@0.23.1920.1121" timestamp="1584537993560" />
+    <state width="918" height="311" key="GridCell.Tab.0.right" timestamp="1584537993561">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="918" height="311" key="GridCell.Tab.0.right/0.23.1920.1121@0.23.1920.1121" timestamp="1584537993561" />
+    <state width="1878" height="311" key="GridCell.Tab.1.bottom" timestamp="1584535778369">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1878" height="311" key="GridCell.Tab.1.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1584535778369" />
+    <state width="1878" height="311" key="GridCell.Tab.1.center" timestamp="1584535778369">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1878" height="311" key="GridCell.Tab.1.center/0.23.1920.1121@0.23.1920.1121" timestamp="1584535778369" />
+    <state width="1878" height="311" key="GridCell.Tab.1.left" timestamp="1584535778369">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1878" height="311" key="GridCell.Tab.1.left/0.23.1920.1121@0.23.1920.1121" timestamp="1584535778369" />
+    <state width="1878" height="311" key="GridCell.Tab.1.right" timestamp="1584535778369">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1878" height="311" key="GridCell.Tab.1.right/0.23.1920.1121@0.23.1920.1121" timestamp="1584535778369" />
+    <state x="1069" y="284" key="NewModule_or_Project.wizard" timestamp="1584455870104">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1069" y="284" key="NewModule_or_Project.wizard/0.23.1920.1121@0.23.1920.1121" timestamp="1584455870104" />
+    <state x="938" y="171" key="SettingsEditor" timestamp="1584195242953">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="938" y="171" key="SettingsEditor/0.23.1920.1121@0.23.1920.1121" timestamp="1584195242953" />
+    <state x="1119" y="416" key="com.intellij.ide.util.TipDialog" timestamp="1584195034468">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1119" y="416" key="com.intellij.ide.util.TipDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584195034468" />
+    <state x="717" y="317" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584535891367">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="717" y="317" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584535891367" />
+    <state x="1105" y="274" width="670" height="676" key="search.everywhere.popup" timestamp="1584536138052">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1105" y="274" width="670" height="676" key="search.everywhere.popup/0.23.1920.1121@0.23.1920.1121" timestamp="1584536138052" />
+  </component>
+</project>
