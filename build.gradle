@@ -47,7 +47,10 @@ dependencies {
     compile('com.querydsl:querydsl-jpa:4.0.1')
     compile('com.querydsl:querydsl-sql:4.0.1')
 
-    compileOnly('org.projectlombok:lombok')
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+    testCompileOnly 'org.projectlombok:lombok:1.18.12'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
     runtime('com.h2database:h2')

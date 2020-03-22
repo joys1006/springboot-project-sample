@@ -9,7 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
+
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/todos")
@@ -30,13 +31,13 @@ public class TodoController {
 
     @PostMapping
     @ApiOperation(value = "할일등록")
-    public HttpStatus postTodoItem(TodoItemRequestDTO request) {
+    public HttpStatus postTodoItem(
+            @Valid @RequestBody TodoItemRequestDTO request) {
         try {
             todoService.setTodoItem(request);
             return HttpStatus.OK;
-
         } catch (Exception e) {
-            return HttpStatus.INTERNAL_SERVER_ERROR;
+            return HttpStatus.BAD_REQUEST;
         }
     }
 
@@ -47,7 +48,6 @@ public class TodoController {
     ) {
         try {
             todoService.deleteTodoItem(id);
-
             return HttpStatus.OK;
         } catch (Exception e) {
             return HttpStatus.INTERNAL_SERVER_ERROR;

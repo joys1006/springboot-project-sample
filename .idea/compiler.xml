@@ -6,6 +6,13 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+        </processorPath>
+        <module name="kakaoTodoBackend.test" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.3.1/21582b0e662b9e54fc6f0f2721d36f753ce7c58c/ecj-4.3.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.32/e4fd0ee015d83fa1c5ec93ff1d05bdaf9a4480c5/tomcat-embed-el-8.5.32.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.3.Final/bfc4d6257dbff7a33a357f0de116be6ff951d849/jandex-2.0.3.Final.jar" />
@@ -37,6 +44,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.8.RELEASE/f5086c1a3185c481104511837427b39a07a57aa2/spring-aop-5.0.8.RELEASE.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-config-client/2.0.1.RELEASE/91f78d0d22b4675b9d5197399418351131bcc666/spring-cloud-config-client-2.0.1.RELEASE.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.archaius/archaius-core/0.7.6/be0c1024d08ad68ec25f9f32b0e9df1ab7ecb45b/archaius-core-0.7.6.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.10.0/fec5797a55b786184a537abd39c3fa1449d752d6/log4j-api-2.10.0.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar" />
@@ -76,7 +84,6 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.0.11.Final/36f9d10a11e4768f55e8fb91ebe4338a5c43954e/hibernate-validator-6.0.11.Final.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/f380e7760032e7d929184f8ad8a33716b75c0657/spring-plugin-core-1.2.0.RELEASE.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-apt/4.0.1/8100a4b43d41836588556f3bee1a0211da292846/querydsl-apt-4.0.1-jpa.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.10.0/f7e631ccf49cfc0aefa4a2a728da7d374c05bd3c/log4j-to-slf4j-2.10.0.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/6cce40435bcd8018018f16898de01976b319941a/commons-configuration-1.8.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/2.0.9.RELEASE/30acb36f682367d93ed400b4324fe2559f0fcb/spring-data-jpa-2.0.9.RELEASE.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar" />
@@ -109,7 +116,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.7/557edd918fd41f9260963583ebf5a61a43a6b423/commons-lang3-3.7.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.6/4e393793c37c77e042ccc7be5a914ae39251b365/jackson-core-2.9.6.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-serialization/1.5.12/ef4a2758e5bc6cf42ae848d4ba3d5363e0a2b27/hystrix-serialization-1.5.12.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.22/e555426550f54284fefb09065f2123a1d9be0b73/lombok-1.16.22.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.10.0/f7e631ccf49cfc0aefa4a2a728da7d374c05bd3c/log4j-to-slf4j-2.10.0.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/2.9.2/362676bc7f4c6f9f1d568741becab0dfc198c898/springfox-swagger2-2.9.2.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.0.4.RELEASE/ec46c63a2adeee40058eff1a6baefca13975dc94/spring-boot-starter-2.0.4.RELEASE.jar" />
