@@ -1,14 +1,15 @@
 package com.kakao.api.dto.response;
 
-import com.sun.tools.javac.util.List;
-import lombok.Builder;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import java.util.List;
+import lombok.Data;
 
-import java.awt.*;
-import java.util.Optional;
-
-@Builder
+@JsonSerialize
+@JsonIgnoreProperties(ignoreUnknown = true)
+@Data
 public class TodoitemsResponseDTO {
     private Long total;
     private Long page;
-    private List<TodoItemResponseDTO> list;
+    private List<TodoitemsResponseDTO> list;
 }

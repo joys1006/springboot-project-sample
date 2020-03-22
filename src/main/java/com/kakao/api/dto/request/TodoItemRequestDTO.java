@@ -1,13 +1,12 @@
 package com.kakao.api.dto.request;
 
-import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
-@Builder
+@Data
 public class TodoItemRequestDTO {
-    private Long content;
-    private LocalDateTime created;
-    private LocalDateTime updated;
+    private String content;
+    private int page;
+    private int pageSize;
 }

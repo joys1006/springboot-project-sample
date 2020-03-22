@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bb039d3-f798-4545-8210-b803775d0b4f" name="Default Changelist" comment="" />
+    <list default="true" id="8bb039d3-f798-4545-8210-b803775d0b4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/config/QuerydslConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/repository/TodoRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/controller/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/domain/TodoEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/domain/TodoEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/dto/request/TodoItemRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/dto/request/TodoItemRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/dto/response/TodoItemResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/dto/response/TodoItemResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/dto/response/TodoitemsResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/dto/response/TodoitemsResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/repository/TodoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/repository/TodoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/repository/TodoRepositoryCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/repository/TodoRepositoryCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/service/MockupService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kakao/api/service/TodoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kakao/api/controller/TodoControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.kakao.api.controller.TodoControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.kakao.api.controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/java/com/kakao/api/controller/todo/TodoController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/json/todo.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/json/todo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.kakao.api.controller.TodoControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakao/api/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakao/api/domain/TodoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/domain/TodoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakao/api/dto/request/TodoItemRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/dto/request/TodoItemRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakao/api/dto/response/TodoItemResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/dto/response/TodoItemResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakao/api/dto/response/TodoitemsResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/dto/response/TodoitemsResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakao/api/repository/TodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/repository/TodoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakao/api/repository/TodoRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/repository/TodoRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakao/api/service/MockupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kakao/api/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kakao/api/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/com/kakao/api/controller/todo/TodoController.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +110,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Z52evgr951J3eKE7w6siumUnTN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -69,6 +126,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
@@ -90,6 +148,7 @@
       <recent name="com.kakao.api.controller.todo" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kakao.api.repository" />
       <recent name="com.kakao" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -106,7 +165,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TodoControllerTest.testFoo">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="TodoControllerTest.testFoo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,7 +239,7 @@
       <workItem from="1584114733880" duration="1824000" />
       <workItem from="1584193274310" duration="1637000" />
       <workItem from="1584195034062" duration="12954000" />
-      <workItem from="1584535790971" duration="3349000" />
+      <workItem from="1584535790971" duration="19048000" />
     </task>
     <servers />
   </component>
@@ -188,6 +247,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1040" y="248" width="766" height="669" key="#Assign_Data_Sources" timestamp="1584889252316">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1040" y="248" width="766" height="669" key="#Assign_Data_Sources/0.23.1920.1121@0.23.1920.1121" timestamp="1584889252316" />
     <state x="1040" y="249" key="#Auto_Import" timestamp="1584538706021">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
@@ -196,10 +259,14 @@
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
     <state x="1040" y="249" key="#Inspections/0.23.1920.1121@0.23.1920.1121" timestamp="1584267712279" />
-    <state x="1040" y="249" key="#Project_Structure" timestamp="1584535510933">
+    <state x="1040" y="249" key="#Project_Structure" timestamp="1584806175177">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state x="1040" y="249" key="#Project_Structure/0.23.1920.1121@0.23.1920.1121" timestamp="1584535510933" />
+    <state x="1040" y="249" key="#Project_Structure/0.23.1920.1121@0.23.1920.1121" timestamp="1584806175177" />
+    <state x="1253" y="299" key="#com.intellij.ide.util.MemberChooser" timestamp="1584818117739">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="1253" y="299" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1121@0.23.1920.1121" timestamp="1584818117739" />
     <state x="1290" y="479" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584115245400">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
@@ -208,46 +275,62 @@
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
     <state x="859" y="516" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584259095623" />
-    <state x="1178" y="337" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584115291782">
+    <state x="1178" y="337" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584815135952">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state x="1178" y="337" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584115291782" />
+    <state x="1178" y="337" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584815135952" />
     <state x="1308" y="243" width="458" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1584535477461">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
     <state x="1308" y="243" width="458" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584535477461" />
-    <state width="918" height="311" key="GridCell.Tab.0.bottom" timestamp="1584537993561">
+    <state width="1878" height="395" key="GridCell.Tab.0.bottom" timestamp="1584893407334">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="918" height="311" key="GridCell.Tab.0.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1584537993561" />
-    <state width="918" height="311" key="GridCell.Tab.0.center" timestamp="1584537993560">
+    <state width="1878" height="395" key="GridCell.Tab.0.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1584893407334" />
+    <state width="1878" height="395" key="GridCell.Tab.0.center" timestamp="1584893407333">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="918" height="311" key="GridCell.Tab.0.center/0.23.1920.1121@0.23.1920.1121" timestamp="1584537993560" />
-    <state width="918" height="311" key="GridCell.Tab.0.left" timestamp="1584537993560">
+    <state width="1878" height="395" key="GridCell.Tab.0.center/0.23.1920.1121@0.23.1920.1121" timestamp="1584893407333" />
+    <state width="1878" height="395" key="GridCell.Tab.0.left" timestamp="1584893407333">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="918" height="311" key="GridCell.Tab.0.left/0.23.1920.1121@0.23.1920.1121" timestamp="1584537993560" />
-    <state width="918" height="311" key="GridCell.Tab.0.right" timestamp="1584537993561">
+    <state width="1878" height="395" key="GridCell.Tab.0.left/0.23.1920.1121@0.23.1920.1121" timestamp="1584893407333" />
+    <state width="1878" height="395" key="GridCell.Tab.0.right" timestamp="1584893407333">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="918" height="311" key="GridCell.Tab.0.right/0.23.1920.1121@0.23.1920.1121" timestamp="1584537993561" />
-    <state width="1878" height="311" key="GridCell.Tab.1.bottom" timestamp="1584535778369">
+    <state width="1878" height="395" key="GridCell.Tab.0.right/0.23.1920.1121@0.23.1920.1121" timestamp="1584893407333" />
+    <state width="1878" height="395" key="GridCell.Tab.1.bottom" timestamp="1584893407335">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="311" key="GridCell.Tab.1.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1584535778369" />
-    <state width="1878" height="311" key="GridCell.Tab.1.center" timestamp="1584535778369">
+    <state width="1878" height="395" key="GridCell.Tab.1.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1584893407335" />
+    <state width="1878" height="395" key="GridCell.Tab.1.center" timestamp="1584893407334">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="311" key="GridCell.Tab.1.center/0.23.1920.1121@0.23.1920.1121" timestamp="1584535778369" />
-    <state width="1878" height="311" key="GridCell.Tab.1.left" timestamp="1584535778369">
+    <state width="1878" height="395" key="GridCell.Tab.1.center/0.23.1920.1121@0.23.1920.1121" timestamp="1584893407334" />
+    <state width="1878" height="395" key="GridCell.Tab.1.left" timestamp="1584893407334">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="311" key="GridCell.Tab.1.left/0.23.1920.1121@0.23.1920.1121" timestamp="1584535778369" />
-    <state width="1878" height="311" key="GridCell.Tab.1.right" timestamp="1584535778369">
+    <state width="1878" height="395" key="GridCell.Tab.1.left/0.23.1920.1121@0.23.1920.1121" timestamp="1584893407334" />
+    <state width="1878" height="395" key="GridCell.Tab.1.right" timestamp="1584893407335">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="311" key="GridCell.Tab.1.right/0.23.1920.1121@0.23.1920.1121" timestamp="1584535778369" />
+    <state width="1878" height="395" key="GridCell.Tab.1.right/0.23.1920.1121@0.23.1920.1121" timestamp="1584893407335" />
+    <state width="1878" height="382" key="GridCell.Tab.2.bottom" timestamp="1584811340295">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1878" height="382" key="GridCell.Tab.2.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1584811340295" />
+    <state width="1878" height="382" key="GridCell.Tab.2.center" timestamp="1584811340294">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1878" height="382" key="GridCell.Tab.2.center/0.23.1920.1121@0.23.1920.1121" timestamp="1584811340294" />
+    <state width="1878" height="382" key="GridCell.Tab.2.left" timestamp="1584811340294">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1878" height="382" key="GridCell.Tab.2.left/0.23.1920.1121@0.23.1920.1121" timestamp="1584811340294" />
+    <state width="1878" height="382" key="GridCell.Tab.2.right" timestamp="1584811340294">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state width="1878" height="382" key="GridCell.Tab.2.right/0.23.1920.1121@0.23.1920.1121" timestamp="1584811340294" />
     <state x="1069" y="284" key="NewModule_or_Project.wizard" timestamp="1584455870104">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
@@ -264,9 +347,9 @@
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
     <state x="717" y="317" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584535891367" />
-    <state x="1105" y="274" width="670" height="676" key="search.everywhere.popup" timestamp="1584536138052">
+    <state x="1105" y="274" width="670" height="676" key="search.everywhere.popup" timestamp="1584817685115">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state x="1105" y="274" width="670" height="676" key="search.everywhere.popup/0.23.1920.1121@0.23.1920.1121" timestamp="1584536138052" />
+    <state x="1105" y="274" width="670" height="676" key="search.everywhere.popup/0.23.1920.1121@0.23.1920.1121" timestamp="1584817685115" />
   </component>
 </project>

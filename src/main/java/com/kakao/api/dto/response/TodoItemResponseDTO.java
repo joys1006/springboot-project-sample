@@ -1,9 +1,17 @@
 package com.kakao.api.dto.response;
 
-import lombok.Builder;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import lombok.Data;
 
-@Builder
+import java.time.LocalDateTime;
+
+@JsonSerialize
+@JsonIgnoreProperties(ignoreUnknown = true)
+@Data
 public class TodoItemResponseDTO {
     private Long id;
     private String content;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 }

@@ -2,16 +2,14 @@ package com.kakao.api.controller;
 
 import com.kakao.api.domain.TodoEntity;
 import com.kakao.api.dto.request.TodoItemRequestDTO;
-import com.kakao.api.dto.response.TodoitemsResponseDTO;
-import com.kakao.api.service.MockupService;
+import com.kakao.api.service.TodoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/todos")
@@ -19,26 +17,38 @@ import java.util.List;
 public class TodoController {
 
     @Autowired
-    private MockupService mockupService;
+    private TodoService todoService;
 
     @GetMapping
     @ApiOperation(value = "할일목록")
-    public List<TodoitemsResponseDTO> getLists(
+    public Page<TodoEntity> getLists(
             @RequestParam(value = "page", defaultValue = "1", required = false) int page,
             @RequestParam(value = "pageSize", defaultValue = "10", required = false) int pageSize
     ) {
-        return mockupService.data("json/todo.json");
+        return todoService.getTodoItems(page, pageSize);
     }
 
     @PostMapping
     @ApiOperation(value = "할일등록")
-    public HttpStatus postList(TodoItemRequestDTO request) {
-        RestTemplate rest = new RestTemplate();
+    public HttpStatus postTodoItem(TodoItemRequestDTO request) {
         try {
-            rest.postForEntity("json/todo.json", request, TodoItemRequestDTO.class);
-
+            todoService.setTodoItem(request);
             return HttpStatus.OK;
 
+        } catch (Exception e) {
+            return HttpStatus.INTERNAL_SERVER_ERROR;
+        }
+    }
+
+    @DeleteMapping
+    @ApiOperation(value = "할일삭제")
+    public HttpStatus deleteTodoItem(
+            @RequestParam(value = "id", required = true) Long id
+    ) {
+        try {
+            todoService.deleteTodoItem(id);
+
+            return HttpStatus.OK;
         } catch (Exception e) {
             return HttpStatus.INTERNAL_SERVER_ERROR;
         }

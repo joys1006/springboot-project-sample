@@ -25,12 +25,51 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
-    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.springframework.boot:spring-boot-starter-validation')
+    compile('org.springframework.boot:spring-boot-starter-json')
+    compile('org.springframework.boot:spring-boot-starter-cache')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa'
+    )
+
     compile('io.springfox:springfox-swagger2:2.9.2')
     compile('io.springfox:springfox-swagger-ui:2.9.2')
+
+    compile('org.springframework.cloud:spring-cloud-starter-config:2.0.1.RELEASE')
+    compile('org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.0.1.RELEASE')
+    compile('org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:1.4.5.RELEASE')
+
+    compile('mysql:mysql-connector-java')
+
+    compile('org.modelmapper:modelmapper:2.3.0')
+
+    compile('com.querydsl:querydsl-core:4.0.1')
+    annotationProcessor('com.querydsl:querydsl-apt:4.0.1:jpa')
+    compile('com.querydsl:querydsl-jpa:4.0.1')
+    compile('com.querydsl:querydsl-sql:4.0.1')
+
     compileOnly('org.projectlombok:lombok')
+
     testCompile('org.springframework.boot:spring-boot-starter-test')
     runtime('com.h2database:h2')
     runtime('org.springframework.boot:spring-boot-devtools')
     implementation('com.google.code.gson:gson:2.8.6')
+}
+
+def queryDslOutput = file("src/main/generated")
+
+compileJava {
+    options.annotationProcessorGeneratedSourcesDirectory = queryDslOutput
+    options.annotationProcessorPath = configurations.compile + configurations.compileOnly + configurations.annotationProcessor
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs queryDslOutput
+        }
+    }
+}
+
+clean {
+    delete queryDslOutput
 }
