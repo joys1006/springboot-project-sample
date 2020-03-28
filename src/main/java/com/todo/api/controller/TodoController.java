@@ -1,7 +1,7 @@
 package com.todo.api.controller;
 
 import com.todo.api.domain.TodoEntity;
-import com.todo.api.dto.request.TodoItemRequestDTO;
+import com.todo.api.dto.request.TodoItemSearchDTO;
 import com.todo.api.service.TodoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 
 @Slf4j
 @RestController
@@ -23,10 +25,9 @@ public class TodoController {
     @GetMapping
     @ApiOperation(value = "할일목록")
     public Page<TodoEntity> getLists(
-            @RequestParam(value = "page", defaultValue = "1", required = false) int page,
-            @RequestParam(value = "pageSize", defaultValue = "10", required = false) int pageSize
+            @Valid TodoItemSearchDTO request
     ) {
-        return todoService.getTodoItems(page, pageSize);
+        return todoService.getTodoItems(request);
     }
 
     @PostMapping
