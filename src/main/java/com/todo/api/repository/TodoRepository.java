@@ -23,8 +23,8 @@ public interface TodoRepository extends JpaRepository<TodoEntity, Long>, Queryds
             builder.and(qTodoEntity.content.like('%' + params.getContent() + '%'));
         }
 
-        if (params.getSuccess() != null) {
-            builder.and(qTodoEntity.isSuccess.eq(params.getSuccess()));
+        if (params.getIsSuccess() != null) {
+            builder.and(qTodoEntity.isSuccess.eq(params.getIsSuccess()));
         }
 
         if (params.getStartDate() != null && params.getEndDate() != null) {

@@ -15,7 +15,7 @@ import java.time.LocalDate;
 @ToString
 public class TodoItemSearchDTO implements Serializable {
     private String content;
-    private Boolean success;
+    private Boolean isSuccess;
 
     private int page = 1;
 
