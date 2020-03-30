@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bb039d3-f798-4545-8210-b803775d0b4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/api/dto/request/TodoItemSearchDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/api/repository/queryDsl/TodoRepositoryCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/todo/api/repository/queryDsl/TodoRepositoryCustomImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/api/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/api/controller/TodoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/api/domain/TodoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/api/domain/TodoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/api/dto/request/TodoItemRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/api/dto/request/TodoItemSearchDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/api/dto/request/TodoItemSearchDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/api/repository/TodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/api/repository/TodoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/api/repository/TodoRepositoryCustom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/api/repository/TodoRepositoryCustomImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/todo/api/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/todo/api/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/todo/api/controller/TodoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/todo/api/controller/TodoControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,17 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kakaoTodoBackend" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kakaoTodoBackend" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -170,6 +181,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="todoBackend [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="todoBackend" />
       <option name="VM_PARAMETERS" />
@@ -236,9 +266,11 @@
       <item itemvalue="Gradle.kakaoTodoBackend [bootRun]" />
       <item itemvalue="Gradle.TodoControllerTest.testFoo" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Gradle.todoBackend [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.todoBackend [build]" />
         <item itemvalue="Gradle.kakaoTodoBackend [bootRun]" />
         <item itemvalue="Gradle.TodoControllerTest.testFoo" />
       </list>
@@ -259,7 +291,7 @@
       <workItem from="1584195034062" duration="12954000" />
       <workItem from="1584535790971" duration="21907000" />
       <workItem from="1584897639589" duration="1220000" />
-      <workItem from="1584899155751" duration="28581000" />
+      <workItem from="1584899155751" duration="36749000" />
     </task>
     <servers />
   </component>
@@ -267,6 +299,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="217" key="#Application" timestamp="1585571902390">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="584" y="217" key="#Application/0.23.1920.1121@0.23.1920.1121" timestamp="1585571902389" />
     <state x="1040" y="248" width="766" height="669" key="#Assign_Data_Sources" timestamp="1585223737034">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
@@ -279,6 +315,10 @@
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
     <state x="1040" y="249" key="#Inspections/0.23.1920.1121@0.23.1920.1121" timestamp="1585316999109" />
+    <state x="560" y="248" width="800" height="765" key="#Intentions" timestamp="1585577410771">
+      <screen x="0" y="23" width="1920" height="1121" />
+    </state>
+    <state x="560" y="248" width="800" height="765" key="#Intentions/0.23.1920.1121@0.23.1920.1121" timestamp="1585577410771" />
     <state x="1040" y="249" key="#Project_Structure" timestamp="1584806175177">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
@@ -311,38 +351,38 @@
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
     <state x="1308" y="243" width="458" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1121@0.23.1920.1121" timestamp="1584535477461" />
-    <state width="1878" height="364" key="GridCell.Tab.0.bottom" timestamp="1585420145694">
+    <state width="1878" height="364" key="GridCell.Tab.0.bottom" timestamp="1585578631408">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.0.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1585420145694" />
-    <state width="1878" height="364" key="GridCell.Tab.0.center" timestamp="1585420145693">
+    <state width="1878" height="364" key="GridCell.Tab.0.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1585578631408" />
+    <state width="1878" height="364" key="GridCell.Tab.0.center" timestamp="1585578631407">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.0.center/0.23.1920.1121@0.23.1920.1121" timestamp="1585420145693" />
-    <state width="1878" height="364" key="GridCell.Tab.0.left" timestamp="1585420145693">
+    <state width="1878" height="364" key="GridCell.Tab.0.center/0.23.1920.1121@0.23.1920.1121" timestamp="1585578631407" />
+    <state width="1878" height="364" key="GridCell.Tab.0.left" timestamp="1585578631407">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.0.left/0.23.1920.1121@0.23.1920.1121" timestamp="1585420145693" />
-    <state width="1878" height="364" key="GridCell.Tab.0.right" timestamp="1585420145693">
+    <state width="1878" height="364" key="GridCell.Tab.0.left/0.23.1920.1121@0.23.1920.1121" timestamp="1585578631407" />
+    <state width="1878" height="364" key="GridCell.Tab.0.right" timestamp="1585578631407">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.0.right/0.23.1920.1121@0.23.1920.1121" timestamp="1585420145693" />
-    <state width="1878" height="364" key="GridCell.Tab.1.bottom" timestamp="1585420145695">
+    <state width="1878" height="364" key="GridCell.Tab.0.right/0.23.1920.1121@0.23.1920.1121" timestamp="1585578631407" />
+    <state width="1878" height="364" key="GridCell.Tab.1.bottom" timestamp="1585578631409">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.1.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1585420145695" />
-    <state width="1878" height="364" key="GridCell.Tab.1.center" timestamp="1585420145694">
+    <state width="1878" height="364" key="GridCell.Tab.1.bottom/0.23.1920.1121@0.23.1920.1121" timestamp="1585578631409" />
+    <state width="1878" height="364" key="GridCell.Tab.1.center" timestamp="1585578631409">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.1.center/0.23.1920.1121@0.23.1920.1121" timestamp="1585420145694" />
-    <state width="1878" height="364" key="GridCell.Tab.1.left" timestamp="1585420145694">
+    <state width="1878" height="364" key="GridCell.Tab.1.center/0.23.1920.1121@0.23.1920.1121" timestamp="1585578631409" />
+    <state width="1878" height="364" key="GridCell.Tab.1.left" timestamp="1585578631408">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.1.left/0.23.1920.1121@0.23.1920.1121" timestamp="1585420145694" />
-    <state width="1878" height="364" key="GridCell.Tab.1.right" timestamp="1585420145695">
+    <state width="1878" height="364" key="GridCell.Tab.1.left/0.23.1920.1121@0.23.1920.1121" timestamp="1585578631408" />
+    <state width="1878" height="364" key="GridCell.Tab.1.right" timestamp="1585578631409">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.1.right/0.23.1920.1121@0.23.1920.1121" timestamp="1585420145695" />
+    <state width="1878" height="364" key="GridCell.Tab.1.right/0.23.1920.1121@0.23.1920.1121" timestamp="1585578631409" />
     <state width="918" height="382" key="GridCell.Tab.2.bottom" timestamp="1584900099307">
       <screen x="0" y="23" width="1920" height="1121" />
     </state>

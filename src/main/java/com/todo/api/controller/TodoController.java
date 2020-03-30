@@ -15,14 +15,14 @@ import javax.validation.Valid;
 
 @Slf4j
 @RestController
-@RequestMapping("/todos")
+@RequestMapping("/todo")
 @Api(value = "할일 리스트 컨트롤러", description = "할일 리스트 목업 데이터", tags = {"todo-list-controller"})
 public class TodoController {
 
     @Autowired
     private TodoService todoService;
 
-    @GetMapping
+    @GetMapping("/lists")
     @ApiOperation(value = "할일목록")
     public Page<TodoEntity> getLists(
             @Valid TodoItemSearchDTO request
@@ -37,6 +37,20 @@ public class TodoController {
     ) {
         try {
             todoService.setTodoItem(request);
+
+            return HttpStatus.OK;
+        } catch (Exception e) {
+            return HttpStatus.BAD_REQUEST;
+        }
+    }
+
+    @PutMapping
+    @ApiOperation(value = "할일수정")
+    public HttpStatus putTodoItem(
+            @RequestBody TodoEntity request
+    ) {
+        try {
+            todoService.putTodoItem(request);
             return HttpStatus.OK;
         } catch (Exception e) {
             return HttpStatus.BAD_REQUEST;

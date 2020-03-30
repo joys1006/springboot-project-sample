@@ -9,7 +9,8 @@ import com.todo.api.repository.queryDsl.TodoRepositoryCustom;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.stereotype.Repository;
-import org.springframework.util.StringUtils;
+
+import java.time.LocalDateTime;
 
 @Repository
 public interface TodoRepository extends JpaRepository<TodoEntity, Long>, QuerydslPredicateExecutor<TodoEntity>, TodoRepositoryCustom {
@@ -27,7 +28,10 @@ public interface TodoRepository extends JpaRepository<TodoEntity, Long>, Queryds
         }
 
         if (params.getStartDate() != null && params.getEndDate() != null) {
-            builder.and(qTodoEntity.createdAt.between(params.getStartDate(), params.getEndDate()));
+            LocalDateTime startDate = params.getStartDate().atTime(0,0,0);
+            LocalDateTime endDate = params.getEndDate().atTime(23,59,59);
+
+            builder.and(qTodoEntity.createdAt.between(startDate, endDate));
         }
 
         return builder;
