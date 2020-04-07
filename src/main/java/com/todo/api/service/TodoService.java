@@ -7,6 +7,7 @@ import com.todo.api.dto.request.TodoItemSearchDTO;
 import com.todo.api.repository.TodoRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -26,6 +27,7 @@ public class TodoService {
         return todoRepository.findById(id).get();
     }
 
+    @Cacheable(value = "todoItemsCache", key = "#id")
     public Page<TodoEntity> getTodoItems(TodoItemSearchDTO params) {
         PageRequest pageRequest = PageRequest.of(params.getPage() - 1, params.getSize(), Sort.by("id").ascending());
         Predicate pageSearch = todoRepository.makeTodoSearchQuery(params);
