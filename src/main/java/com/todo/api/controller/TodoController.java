@@ -11,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.HttpClientErrorException;
 
 import javax.validation.Valid;
 
@@ -76,7 +75,7 @@ public class TodoController {
             todoService.deleteTodoItem(id);
             return HttpStatus.OK;
         } catch (Exception e) {
-            return HttpStatus.INTERNAL_SERVER_ERROR;
+            return HttpStatus.BAD_REQUEST;
         }
     }
 }

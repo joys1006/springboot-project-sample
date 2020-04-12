@@ -23,6 +23,7 @@ public class TodoService {
     @Autowired
     private TodoRepository todoRepository;
 
+    @Cacheable(value = "todoItmsCache", key = "#id")
     public TodoEntity getTodoItem(Long id) {
         return todoRepository.findById(id).get();
     }
