@@ -1,0 +1,49 @@
+server:
+  port: 8501
+
+app:
+  character-Encoding: utf8
+  use-unicode: true
+
+
+hystrix:
+  command:
+    default:
+      execution.isolation.thread.timeoutInMilliseconds: 100
+
+cache:
+  expiration:
+    tenSeconds: 10
+    oneMinute: 60
+    fiveMinutes: 300
+    oneHour: 3600
+    popupList: 300
+
+
+spring:
+  profiles: local
+
+database:
+  datasource-write:
+    driverClassName: com.mysql.jdbc.Driver
+    jdbcUrl: jdbc:mysql://localhost:3306/todo?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false&autoReconnect=true
+    username: root
+    password: joys1004
+
+couchbaseCache:
+  serverNodes: http://127.0.0.1:8091/
+  bucketName: churi-sample
+  bucketPassword: joys1004
+
+logging:
+  level:
+    org:
+      springframework.boot.autoconfigure: ERROR
+      hibernate: ERROR
+    com.couchbase.client.core:
+      CouchbaseCore: ERROR
+      endpoint.Endpoint: ERROR
+      env.CoreEnvironment: ERROR
+    kr.co.within.puma: ERROR
+    springfox: ERROR
+    org.springframework.data.repository.config: ERROR

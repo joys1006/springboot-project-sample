@@ -40,7 +40,8 @@ dependencies {
     compile('org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.0.1.RELEASE')
     compile('org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:1.4.5.RELEASE')
 
-    compile('org.springframework.data:spring-data-couchbase')
+    compile('org.springframework.boot:spring-boot-starter-data-couchbase')
+    compile('com.couchbase.client:couchbase-spring-cache')
 
     compile('mysql:mysql-connector-java')
 
