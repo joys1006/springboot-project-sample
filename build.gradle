@@ -47,6 +47,8 @@ dependencies {
 
     compile('org.modelmapper:modelmapper:2.3.0')
 
+    annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+
     compile('com.querydsl:querydsl-core:4.0.1')
     annotationProcessor('com.querydsl:querydsl-apt:4.0.1:jpa')
     compile('com.querydsl:querydsl-jpa:4.0.1')
