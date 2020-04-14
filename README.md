@@ -1,13 +1,13 @@
 > Spring Boot Project Sample code
 
-##Description
+## Description
 Spring Boot BoilerPlate Architecture
 Gradle Project Base
 
-#Plan
+## Plan
 Rest Api, Security Login Api, CouchBase
 
-#Setting
+## Setting
 Gradle Project
 
 ## Spec
