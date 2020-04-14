@@ -70,6 +70,7 @@ public class CouchBaseConnector implements DisposableBean {
     }
 
     public Bucket connect(String[] serverNodes, String bucketName, String bucketPassword) {
+        System.out.println(bucketName + "-" + bucketPassword);
         try {
             CouchbaseEnvironment environment = couchbaseEnvironment();
             Cluster cluster = CouchbaseCluster.create(environment, serverNodes);
