@@ -3,6 +3,7 @@ package com.todo.api.config;
 import com.todo.api.handler.authentication.JwtAuthenticationFilter;
 import com.todo.api.handler.authentication.JwtTokenProvider;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -16,8 +17,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @RequiredArgsConstructor
 @Configuration
-class SecurityConfiguration extends WebSecurityConfigurerAdapter {
-    private final JwtTokenProvider jwtTokenProvider;
+class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Autowired
+    private JwtTokenProvider jwtTokenProvider;
 
     @Bean
     @Override

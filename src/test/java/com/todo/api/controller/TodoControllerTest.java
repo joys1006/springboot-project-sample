@@ -17,33 +17,33 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.assertj.core.api.Assertions.assertThat;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(
-        classes = {
-            TodoController.class
-        },
-        webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
-)
-@AutoConfigureMockMvc
-public class TodoControllerTest {
-
-    @Autowired
-    private TodoController todoController;
-
-    @Test
-    public void testFoo() throws Exception {
-        TodoItemSearchDTO request = new TodoItemSearchDTO();
-
-        request.setSize(10);
-        request.setPage(1);
-
-        Page<TodoEntity> actual = todoController.getLists(request);
-
+//@RunWith(SpringRunner.class)
+//@SpringBootTest(
+//        classes = {
+//            TodoController.class
+//        },
+//        webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
+//)
+//@AutoConfigureMockMvc
+//public class TodoControllerTest {
+//
+//    @Autowired
+//    private TodoController todoController;
+//
+//    @Test
+//    public void testFoo() throws Exception {
+//        TodoItemSearchDTO request = new TodoItemSearchDTO();
+//
+//        request.setSize(10);
+//        request.setPage(1);
+//
+//        Page<TodoEntity> actual = todoController.getLists(request);
+//
 //        assertThat(mockMvc).isNotNull();
 //        mockMvc.perform(get("/todos"))
 //                .andExpect(status().isOk())
 //                .andExpect(content().)
 //                .andDo(print());
-    }
-
-}
+//    }
+//
+//}
