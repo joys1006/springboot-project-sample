@@ -5,7 +5,7 @@ Spring Boot BoilerPlate Architecture
 Gradle Project Base
 
 ## Plan
-Rest Api, Security Login Api, CouchBase
+Rest Api, Security Login Api, CouchBase, kafka
 
 ## Setting
 Gradle Project
