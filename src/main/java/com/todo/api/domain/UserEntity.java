@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 @NoArgsConstructor // 인자없는 생성자를 자동으로 생성합니다.
 @AllArgsConstructor // 인자를 모두 갖춘 생성자를 자동으로 생성합니다.
 @Table(name = "account") // 'account' 테이블과 매핑됨을 명시
-public class AccountEntity implements UserDetails {
+public class UserEntity implements UserDetails {
 
     @Id // PK
     @GeneratedValue(strategy = GenerationType.IDENTITY)
